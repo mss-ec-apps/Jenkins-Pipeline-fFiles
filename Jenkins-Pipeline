@@ -38,9 +38,9 @@ node
   }
    stage('SendingEmail')
    {
-     emailext body: '''Build is over..
-
-Regards,
-Rohim Molla''', subject: 'Build is over.. ', to: 'rohimmolla6613@gmail.com'
+     emailext body: '''Build is over...
+     
+    Regards,
+    Rohim Molla''', subject: 'Build is over...', to: 'rohimmolla6613@gmail.com'
    }
 }
